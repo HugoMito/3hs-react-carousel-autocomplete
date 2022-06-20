@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.container {
+  height: 100vw;
+  position: relative;
+}
+
+#modulePaper {
+  background-color: grey;
+  box-shadow: none;
+  position: relative;
+  width: 95%;
+}
+
+#moduleBoxFilters {
+  border: solid 1px grey;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2px;
+  padding: 0px 15px;
+  position: relative;
+  width: auto;
+}
+
+#moduleDivFilters {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: 96%;
+}
+
+#moduleChipFilters {
+  background-color: white;
+  border: solid 1px grey;
+  height: 24px;
+  margin: 0px 0px 0px 2px;
+}
+
+/* This style is VERY important */
+.slick-slider {
+  margin: auto;
+  width: inherit;
+}
+
+.signature {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
